@@ -15,7 +15,7 @@ Generate a fun and simple "Would You Rather" question in JSON format like:
   "optionA": "X",
   "optionB": "Y"
 }
-Ensure the response is valid JSON only — no text outside JSON, no explanation, and no markdown like \`\`\`.
+Ensure the response is valid JSON only — no text outside JSON, no explanation, and no markdown like \`\`\`.also make a list of weird 100 questions and keep repeating that. Keep the language simple.
 `;
 
   try {
