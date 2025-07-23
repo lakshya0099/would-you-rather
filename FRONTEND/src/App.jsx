@@ -222,7 +222,7 @@ function App() {
     setLoading(true);
     setError(null);
     try {
-      const res = await axios.get("http://localhost:5000/api/question/generate");
+      const res = await axios.get("https://would-you-rather-nle2.onrender.com/api/question/generate");
       setQuestionData(res.data);
     } catch (err) {
       console.error("❌ Error fetching question:", err);
@@ -238,7 +238,7 @@ function App() {
     
     try {
       const res = await axios.post(
-        `http://localhost:5000/api/question/vote/${questionData._id}`,
+        `https://would-you-rather-nle2.onrender.com/api/question/vote/${questionData._id}`,
         { option }
       );
       
